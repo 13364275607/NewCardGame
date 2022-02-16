@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Card/Scenes/MySql.unity
+    guid: 645d95dae34a3a14e83f11c7fd8a415a
+  - enabled: 0
+    path: Assets/Card/Scenes/Login.unity
+    guid: 757ba5a7da30328459b3aa2dad964cc4
+  - enabled: 1
+    path: Assets/Card/Scenes/TeacherSetting.unity
+    guid: 9d5f03ff39933064ba4e8536574cd07f
+  - enabled: 1
+    path: Assets/Card/Scenes/Main.unity
+    guid: 7799298453917ee4fa06cd4a04a421e2
+  - enabled: 1
+    path: Assets/Card/Scenes/Missions.unity
+    guid: ca41056053d5c0241a836a3133dc2451
+  - enabled: 1
+    path: Assets/Card/Scenes/Levels.unity
+    guid: 0877f23878a37634e93a97d5f12d809f
+  - enabled: 1
+    path: Assets/Card/Scenes/Game.unity
+    guid: 9bec36b74e90dbb4fbd0cf0b40577780
+  - enabled: 1
+    path: Assets/Card/Scenes/Options.unity
+    guid: 047c030e2bd70ad4b8d57b59b2b3b171
+  - enabled: 1
+    path: Assets/Card/Scenes/HowToPlay.unity
+    guid: bf8346bd68dc1d84a964cd49b05b43d0
+  m_configObjects: {}
