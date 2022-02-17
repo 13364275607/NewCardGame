@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class MissionLoader : MonoBehaviour
 {
     public LevelsManager mission;
@@ -19,7 +19,12 @@ public class MissionLoader : MonoBehaviour
             index++;
 
         }
-
-        mission.levels[0].timeLimit = 90;
+        mission.levels[0].timeLimit = MissionManager.Instance.SliderThreeValue;
+        JiSuan(mission.levels[0].timeLimit);
+    }
+    public void JiSuan(int a)
+    {
+        mission.levels[0].twoStarsTimePeriod = a - 30;
+        mission.levels[0].threeStarsTimePeriod = a - 10;
     }
 }

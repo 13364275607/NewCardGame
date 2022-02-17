@@ -5,7 +5,7 @@ using UnityEngine;
 public class MissionManager : MonoBehaviour
 {
     public List<string> CardList;
-
+    public int SliderThreeValue;
     //创建静态变量instance
     static MissionManager instance;
 
