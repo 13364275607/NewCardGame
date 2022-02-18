@@ -24,7 +24,7 @@ public class MissionLoader : MonoBehaviour
     }
     public void JiSuan(int a)
     {
-        mission.levels[0].twoStarsTimePeriod = a - 30;
-        mission.levels[0].threeStarsTimePeriod = a - 10;
+        mission.levels[0].twoStarsTimePeriod = (int)(a*0.6);
+        mission.levels[0].threeStarsTimePeriod = (int)(a * 0.3);
     }
 }
